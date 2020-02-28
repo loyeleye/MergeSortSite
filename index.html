@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" media="screen" href="css/main.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div id="input">
+            <h1>Merge Sort</h1>
+            <p>Please input a list of numbers to be sorted.</p>
+            <form id="listForm" action="">
+                <label id="lab1" for="el1">1: </label><input type="text" id="el1" class="value" placeholder="0" pattern="[\-]*[0-9]+">
+                <div id="endList" class="hidden"></div>
+                <br><br>
+                <input type="button" value="Add Element to list" onclick="addElement()">
+                <input type="button" value="Perform Merge Sort" onclick="startMergeSort()">
+            </form>
+        </div>
+        <div id="explanation" class="hidden">
+            <h2>How it works</h2>
+            <div id="showStep"></div>
+        </div>
+    </div>
+    <div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
+    <div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
